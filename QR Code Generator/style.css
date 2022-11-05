@@ -13,24 +13,24 @@ body{
   padding: 0 10px;
   min-height: 100vh;
   align-items: center;
-  background: #3498DB;
-  justify-content: right;
+  background: #63a0cf;
+  justify-content: center;
   
   
 }
 ::selection{
   color: #fff;
-  background: #3498DB;
-  background-image: url(../img/SPLIT-BILL-2-long.jpg);
+  background: #1172b3;
 }
+
 .wrapper{
   height: 325px;
   max-width: 410px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(211, 9, 9, 0.1);
   border-radius: 7px;
   padding: 20px 25px 0;
   transition: height 0.2s ease;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(48, 8, 8, 0.1);
 }
 .wrapper.active{
   height: 530px;
@@ -41,7 +41,7 @@ header h1{
 }
 header p{
   margin-top: 5px;
-  color: #575757;
+  color: #6c1f1f;
   font-size: 16px;
 }
 .wrapper .form{
